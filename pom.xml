@@ -62,7 +62,7 @@
                             <!-- An AntPath-Style pattern matching a JMeter XML result file to 
                                 analyze. Must be a fully qualified path. File may be GZiped, must end in 
                                 .gz then. Default: not set. Required. -->
-                            <source>${project.build.directory}/**/*.jtl</source>
+                            <source>${project.build.directory}/jmeter/results/*.jtl</source>
 
                             <!-- directory where to store analysis result files. Default: ${project.build.directory} 
                                 Required. -->
