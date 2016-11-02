@@ -45,7 +45,7 @@
 						<excludeJMeterTestFile>test3.jmx</excludeJMeterTestFile>
 					</testFilesExcluded>
 					<resultsFileNameDateFormat>yyyy-MM-dd-HH-mm-ss</resultsFileNameDateFormat>
-<resultsDirectory>${project.build.directory}</resultsDirectory>
+
 
 				</configuration>
 			</plugin>
@@ -62,11 +62,11 @@
                             <!-- An AntPath-Style pattern matching a JMeter XML result file to 
                                 analyze. Must be a fully qualified path. File may be GZiped, must end in 
                                 .gz then. Default: not set. Required. -->
-                            <source>${project.build.directory}/results/*.jtl</source>
+                            <source>${project.build.directory}/**/*.jtl</source>
 
                             <!-- directory where to store analysis result files. Default: ${project.build.directory} 
                                 Required. -->
-                            <targetDirectory>${project.build.directory}/results</targetDirectory>
+                            <targetDirectory>${project.build.directory}/jmeter/results</targetDirectory>
 
                             <!-- Build failed if source directory is not found. Default: true -->
                             <sourceDirFailed>true</sourceDirFailed>
