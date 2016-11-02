@@ -1112,7 +1112,6 @@
               <threadCounts>true</threadCounts>
               <sampleCount>true</sampleCount>
               <idleTime>true</idleTime>
-              <connectTime>true</connectTime>
             </value>
           </objProp>
           <stringProp name="filename"></stringProp>
@@ -1181,7 +1180,6 @@
               <bytes>true</bytes>
               <threadCounts>true</threadCounts>
               <idleTime>true</idleTime>
-              <connectTime>true</connectTime>
             </value>
           </objProp>
           <stringProp name="filename"></stringProp>
