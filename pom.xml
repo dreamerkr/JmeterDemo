@@ -45,7 +45,7 @@
 						<excludeJMeterTestFile>test3.jmx</excludeJMeterTestFile>
 					</testFilesExcluded>
 					<resultsFileNameDateFormat>yyyy-MM-dd-HH-mm-ss</resultsFileNameDateFormat>
-
+<resultsDirectory>${project.build.directory}</resultsDirectory>
 
 				</configuration>
 			</plugin>
