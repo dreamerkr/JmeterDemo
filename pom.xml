@@ -46,8 +46,7 @@
 					</testFilesExcluded>
 					<resultsFileNameDateFormat>yyyy-MM-dd-HH-mm-ss</resultsFileNameDateFormat>
 
-					<resultsFileFormat>csv</resultsFileFormat>
-					<resultsDirectory>src/main/webapp</resultsDirectory>
+
 				</configuration>
 			</plugin>
 
